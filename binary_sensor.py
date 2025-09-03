@@ -13,7 +13,7 @@ from homeassistant.const import CONF_DEVICE_CLASS, CONF_ID, CONF_NAME
 import homeassistant.helpers.config_validation as cv
 from homeassistant.helpers.restore_state import RestoreEntity
 
-from .device import EnOceanEntity
+from .entity import EnOceanEntity
 
 _LOGGER = logging.getLogger(__name__)
 

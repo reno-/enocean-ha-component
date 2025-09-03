@@ -6,7 +6,7 @@ from homeassistant.const import CONF_ID, CONF_NAME
 import homeassistant.helpers.config_validation as cv
 from homeassistant.helpers.entity import ToggleEntity
 
-from .device import EnOceanEntity
+from .entity import EnOceanEntity
 
 CONF_CHANNEL = "channel"
 DEFAULT_NAME = "EnOcean Switch"

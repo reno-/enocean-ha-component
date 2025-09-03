@@ -12,7 +12,7 @@ from homeassistant.components.light import (
 from homeassistant.const import CONF_ID, CONF_NAME
 import homeassistant.helpers.config_validation as cv
 
-from .device import EnOceanEntity
+from .entity import EnOceanEntity
 
 CONF_SENDER_ID = "sender_id"
 
